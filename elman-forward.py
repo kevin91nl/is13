@@ -5,10 +5,10 @@ import subprocess
 import os
 import random
 
-from is13.data import load
-from is13.rnn.elman import model
-from is13.metrics.accuracy import conlleval
-from is13.utils.tools import shuffle, minibatch, contextwin
+from data import load
+from rnn.elman import model
+from metrics.accuracy import conlleval
+from utils.tools import shuffle, minibatch, contextwin
 
 if __name__ == '__main__':
 
